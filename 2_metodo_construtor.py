@@ -1,0 +1,9 @@
+class Pessoa:
+    def __init__(self, nome, idade, cpf):
+        print(f'{nome} | {idade} | {cpf}')
+
+    def logar_sistema(self):
+        print(f'{self.nome} logou no sistema.')
+
+p1 = Pessoa('Janio', 39, '123.456.789-00')
+p2 = Pessoa('Alexandre', 30, '987.654.321-00')
